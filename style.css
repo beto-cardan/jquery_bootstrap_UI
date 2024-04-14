@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Caveat:wght@400..700&family=Darker+Grotesque:wght@300..900&family=Handlee&family=Instrument+Serif:ital@0;1&family=Kode+Mono:wght@400..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ms+Madi&family=Ojuju:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sacramento&family=Style+Script&family=Thasadith:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+}
+
+.thasadith-regular {
+    font-family: "Thasadith", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.thasadith-regular-italic {
+    font-family: "Thasadith", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+#container{
+    text-align: center;
+    padding: 20px;
+}
+
+#country {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #003399;
+    color: #fff;
+}
+
+img.country-flag {
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centers the image horizontally */
+}
+
+.ui-widget {
+    text-align: center;
+}
+
+#tags{
+    text-align: center;
+}
+
+
+.spinner-border{
+    color: #fff !important;
+}
+
+
+#list {
+    display: inline;
+    flex-wrap: wrap;
+    float: left;
+    justify-content: space-around;
+    background-color: #003399;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 10px;
+}
+#list li {
+    width: 10%; /* Ajuste conforme necessário */
+    margin: 5px;
+    background-color: #f0f0f0;
+    padding: 14px;
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    color: #D8B517;
+}
+
+#list li:hover{
+    background-color: #333;
+    color: #fff;
+    border-radius: 10%;
+    text-decoration: underline ;
+}
+
+
+hr{
+    color: #003399;
+}
+
+h2{
+    text-align: center;
+}
+ul li{
+
+    text-align: justify;
+}
+@media screen and (max-width: 760px) {
+    #list {
+        flex-direction: column;
+        align-items: center;
+    }
+    #list li {
+        width: 30%;
+        font-size: 12px ;
+    }
+}
+
+
