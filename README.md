@@ -1,4 +1,4 @@
-# jquery_bootstrap_UI
+# jQuery_bootstrap_UI
  Site UI 
 #Bootstrap Components
 Use Bootstrap components for styling and layout. For example, buttons, cards, grids, etc.
